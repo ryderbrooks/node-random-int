@@ -14,8 +14,9 @@ Cryptographically secure pseudo-random number generator for node.js
 
 ___
 
-#Usage
-###Async:
+
+# Usage
+### Async:
 ```typescript
 import {createRandomNumberGenerator} from 'node-random-int';
 
@@ -55,7 +56,7 @@ async function FOO(){
 
 
 
-###Synchronous
+### Synchronous
 ```typescript
 import {createRandomNumberGenerator} from 'node-random-int';
 
@@ -89,9 +90,9 @@ function FOO(){
 ```
 
 
-##Tests
+## Tests
 ```typescript
 npm run test
 ```
 
-##Licence 
+## Licence 
