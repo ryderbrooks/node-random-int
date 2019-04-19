@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/ryderbrooks/node-randome-int.svg?branch=master)](https://travis-ci.org/ryderbrooks/node-random-int)
+[![Build Status](https://travis-ci.org/ryderbrooks/node-random-int.svg?branch=master)](https://travis-ci.org/ryderbrooks/node-random-int)
 [![Coverage Status](https://coveralls.io/repos/github/ryderbrooks/node-random-int/badge.svg?branch=master)](https://coverall.io/github/ryderbrooks/node-random-int?branch=master)
 [![npm](https://img.shields.io/npm/v/node-random-int.svg)](https://www.npmjs.com/package/node-random-int) 
 
