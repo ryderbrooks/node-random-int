@@ -1,0 +1,59 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "strictNullChecks": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "inlineSources": true,
+    "target": "ESNext",
+    "sourceMap": true,
+    "diagnostics": true,
+    "extendedDiagnostics": true,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "declarationMap": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "declaration": true,
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "lib": [
+      "esnext"
+    ]
+  },
+  "compileOnSave": true,
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "docs"
+  ],
+  "typedocOptions": {
+    "mode": "file",
+    "out": "docs",
+    "ignoreCompilerErrors": false,
+    "module": "commonjs",
+    "target": "ES6",
+    "verbose": true,
+    "excludeNotExported": false,
+    "excludeExternals": false,
+    "includeDeclarations": true,
+    "excludePrivate": true,
+    "externalPattern": "",
+    "exclude": [
+      "**/src/test/**"
+    ],
+    "name": "",
+    "theme": "default"
+  }
+}
